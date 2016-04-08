@@ -6,9 +6,9 @@ int main ( void ) {
 
   printf("Este programa calcula a média de um aluno, dado duas notas.\n\n");
   printf("Digite a primeira nota: ");
-  scanf("%f", ¬a1);
+  scanf("%f", &nota1);
   printf("Digite a segunda nota: ");
-  scanf("%f", ¬a2);
+  scanf("%f", &nota2);
 
   media = (nota1 + nota2)/2;
 

@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main ( void ) {
-  float a, / coeficiente da equação de primeiro grau /
-        b, / termo independente da equação /
-        x; / resultado da equação de primeiro grau /
+  float a, /* coeficiente da equação de primeiro grau */
+        b, /* termo independente da equação */
+        x; /* resultado da equação de primeiro grau */
 
   printf("Este programa resolve uma equação de primeiro grau. \n\n");
   printf("Entre com o coeficiente a, por favor: ");
